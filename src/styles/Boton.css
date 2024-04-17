@@ -1,0 +1,35 @@
+.boton_contenedor{
+  height: 80px;
+  width: 80px;
+  display: flex;
+  margin: 2px;
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 38px;
+  background-color: #1b1b32;
+  color: white;
+  border-radius: 20px;
+  border: 2px solid white;
+  cursor: pointer;
+  user-select: none;
+}
+
+.boton_contenedor:hover{
+  background-color: grey;
+}
+
+.operador{
+  background-color: #D76C71;
+}
+
+.result_boton{
+  background-color: #ff5733;
+  color: white;
+}
+
+.resultado {
+  background-color: forestgreen;
+  color: white;
+}
